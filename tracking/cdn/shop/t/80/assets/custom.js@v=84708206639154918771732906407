@@ -1,0 +1,4 @@
+window.addEventListener('scroll', function() {
+  var headerBg = document.querySelector('.header-bg');
+  headerBg.classList.toggle('scrolled', window.scrollY > 10);
+});
